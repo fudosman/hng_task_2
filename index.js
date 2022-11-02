@@ -1,9 +1,10 @@
 const csv = require("csvtojson");
-const { json } = require("stream/consumers");
 const sha256 = require("js-sha256").sha256;
+
 
 const csvFilePath =
   "/home/assocmaster/Desktop/CODES/HNG/Task_2/csv_files/NFT Naming csv - Team Clutch.csv";
+
 
 async function convertFile(csvFilePath) {
   const jsonArray = await csv().fromFile(csvFilePath);
