@@ -1,0 +1,15 @@
+{
+  "name": "task_2",
+  "version": "1.0.0",
+  "description": "hng second task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "salt",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "request": "^2.88.2"
+  }
+}
