@@ -1,5 +1,7 @@
 # hng_task_2
 
+- a console app that converts CSV files into a CHIP - 0007 compatible json file.
+
 ### add your csv file into the csv_folder
 
 ### copy out the file Path and paste it into the index.js folder under the csvFilePath variable
