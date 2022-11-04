@@ -1,11 +1,21 @@
-# hng_task_2
+# CSV READER AND WRITER
 
-### a console app that converts CSV files into a CHIP - 0007 compatible json file.
+This is a HNGi9 Project I submitted that reads a csv file, saves out each row as a json file, hashes the json files and creates a modified csv file with the new hash for each row included in the row.
 
-- add your csv file into the csv_folder
+> **Note:** This Script works with csv files that have the following headers - [ "TEAM NAMES", "Series Number", "Filename", "Name", "Description", "Gender", "Attributes", "UUID"].
 
-- copy out the file Path and paste it into the index.js folder under the csvFilePath variable
+To add new columns, Just edit the `columns` array and add the new column in the right place.
 
-- run the convertFile function from the console by running 'node index.js'
+# STRUCTURE
 
-- the function would return a CHIP - 0007 compatible json file, with its sha256 hash on each record
+- the `csv_folder` folder contains the original csv file and the modified version. Copy your csv file into this folder
+- the `json` folder contains all generated json files
+- the `index.js` houses the implementation.
+
+# HOW TO RUN THE PROGRAM
+
+- Clone the repo
+- Change into the cloned directory
+- In your terminal run `npm install`
+- In the `index.js` file, change the `filename` variable to your csv file name without the extention.
+- In your terminal run `node main.js`
