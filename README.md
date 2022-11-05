@@ -8,7 +8,7 @@ To add new columns, Just edit the `columns` array and add the new column in the 
 
 # STRUCTURE
 
-- the `csv_folder` folder contains the original csv file and the modified version. Copy your csv file into this folder
+- the `csv_files` folder contains the original csv file and the modified version. Copy your csv file into this folder
 - the `json` folder contains all generated json files
 - the `index.js` houses the implementation.
 
