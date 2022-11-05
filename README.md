@@ -9,13 +9,12 @@ To add new columns, Just edit the `columns` array and add the new column in the 
 # STRUCTURE
 
 - the `csv_files` folder contains the original csv file and the modified version. Copy your csv file into this folder
-- the `json` folder contains all generated json files
 - the `index.js` houses the implementation.
 
 # HOW TO RUN THE PROGRAM
 
 - Clone the repo
 - Change into the cloned directory
-- In your terminal run `npm install`
+- In your terminal run `npm install` to install the dependencies
 - In the `index.js` file, change the `filename` variable to your csv file name without the extention.
 - In your terminal run `node main.js`
